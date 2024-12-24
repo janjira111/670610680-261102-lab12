@@ -12,6 +12,12 @@ int main(){
 	mySwap(x,y);
 	cout << "After swapping:\n";
 	cout << "x = " << x << ", y = " << y << "\n";
-	
+
 	return 0;
+}
+
+void mySwap(int &x,int &y){
+	int a = x;
+	x = y;
+	y = a;
 }
